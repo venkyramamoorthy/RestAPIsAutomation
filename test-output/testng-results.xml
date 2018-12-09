@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5017" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5017" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:14Z">
+      <class name="webServices.rest.AutomatePostRestApi">
+        <test-method status="PASS" signature="post()[pri:0, instance:webServices.rest.AutomatePostRestApi@9838eb]" name="post" duration-ms="3589" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- webServices.rest.AutomatePostRestApi -->
+      <class name="webServices.rest.AutomatePatchRestApi">
+        <test-method status="PASS" signature="patch()[pri:0, instance:webServices.rest.AutomatePatchRestApi@100df86]" name="patch" duration-ms="3763" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch -->
+      </class> <!-- webServices.rest.AutomatePatchRestApi -->
+      <class name="webServices.rest.AutomatePutRestApi">
+        <test-method status="PASS" signature="put()[pri:0, instance:webServices.rest.AutomatePutRestApi@dafa95]" name="put" duration-ms="3783" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put -->
+      </class> <!-- webServices.rest.AutomatePutRestApi -->
+      <class name="webServices.rest.AutomateGetPathParamRestApi">
+        <test-method status="PASS" signature="get()[pri:0, instance:webServices.rest.AutomateGetPathParamRestApi@17d0008]" name="get" duration-ms="3787" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+      </class> <!-- webServices.rest.AutomateGetPathParamRestApi -->
+      <class name="webServices.rest.AutomateGetQueryParamRestApi">
+        <test-method status="PASS" signature="get()[pri:0, instance:webServices.rest.AutomateGetQueryParamRestApi@11053e1]" name="get" duration-ms="3802" started-at="2018-12-09T13:35:09Z" finished-at="2018-12-09T13:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method status="PASS" signature="getQueryParam()[pri:0, instance:webServices.rest.AutomateGetQueryParamRestApi@11053e1]" name="getQueryParam" duration-ms="338" started-at="2018-12-09T13:35:12Z" finished-at="2018-12-09T13:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQueryParam -->
+      </class> <!-- webServices.rest.AutomateGetQueryParamRestApi -->
+      <class name="webServices.rest.AutomateDeleteRestApi">
+        <test-method status="PASS" signature="delete()[pri:0, instance:webServices.rest.AutomateDeleteRestApi@2a079c]" name="delete" duration-ms="1371" started-at="2018-12-09T13:35:12Z" finished-at="2018-12-09T13:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- webServices.rest.AutomateDeleteRestApi -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" verbose="10" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="webServices.rest.AutomatePostRestApi">
+        <methods>
+          <include name="post"/>
+        </methods>
+      </class> <!-- webServices.rest.AutomatePostRestApi -->
+      <class name="webServices.rest.AutomateDeleteRestApi">
+        <methods>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- webServices.rest.AutomateDeleteRestApi -->
+      <class name="webServices.rest.AutomateGetPathParamRestApi">
+        <methods>
+          <include name="get"/>
+        </methods>
+      </class> <!-- webServices.rest.AutomateGetPathParamRestApi -->
+      <class name="webServices.rest.AutomatePatchRestApi">
+        <methods>
+          <include name="patch"/>
+        </methods>
+      </class> <!-- webServices.rest.AutomatePatchRestApi -->
+      <class name="webServices.rest.AutomatePutRestApi">
+        <methods>
+          <include name="put"/>
+        </methods>
+      </class> <!-- webServices.rest.AutomatePutRestApi -->
+      <class name="webServices.rest.AutomateGetQueryParamRestApi">
+        <methods>
+          <include name="getQueryParam"/>
+          <include name="get"/>
+        </methods>
+      </class> <!-- webServices.rest.AutomateGetQueryParamRestApi -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
